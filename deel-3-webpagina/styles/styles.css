@@ -1,1 +1,118 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*------------ Kleuren ------------
+blauw (space cadet) #151E3F
+Oxford Blue #030027
+Beige #F2F3D9
+oranje (Buff) #DC9E82
+Old rose #C16E70
+-------------------------------------*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F2F3D9;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #030027;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.wrapper {
+    margin: 0 40px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 10px 0;
+    gap: 30px;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #C16E70;
+    max-width: 280px;
+    min-height: 350px;
+    border-radius: 2%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+
+/*----------------------
+    2. Typography
+----------------------*/
+body {
+    font-family: 'Golos Text', sans-serif;
+    color: #030027;
+    text-align: center;
+}
+
+.navbar {
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.analytica {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.3;
+}
